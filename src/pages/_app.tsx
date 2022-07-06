@@ -1,11 +1,12 @@
 import type { AppProps } from 'next/app'
-import Home from './index'
+import Navbar from '../components/Navbar/Navbar'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-	<>
-		<Home />
-	</>
+    <>
+      <Navbar />
+      <Component {...pageProps} />
+    </>
   )
 }
 
