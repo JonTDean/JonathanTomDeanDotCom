@@ -3,10 +3,7 @@ import NavbarList from './NavbarList'
 
 const Navbar = () => {
   return (
-    <div>
-      <div>
-        <p className="bg-black">Navbar</p>
-      </div>
+    <div className="px-[10rem]">
       <NavbarList />
     </div>
   )

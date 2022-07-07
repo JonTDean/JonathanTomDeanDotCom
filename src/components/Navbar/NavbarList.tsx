@@ -4,20 +4,28 @@ import React, { ReactElement } from 'react'
 
 const NavbarList = () => {
   return (
-    <ul className="flex flex-row">
-      <div>
+    <ul className="flex flex-row justify-between align-center items-center">
+      <div className="invisible xl:visible flex flex-row ">
         {NavbarItemsLeft.map((item: NavbarItemTypes, idx: number) => {
-          return <li key={`navItem_${idx}`}>{item.component}</li>
+          return (
+            <li className="xl:px-[2.5rem]" key={`navItem_${idx}`}>
+              {item.component}{' '}
+            </li>
+          )
         })}
       </div>
-      <div>
+      <div className="invisible xl:visible">
         {NavbarItemsMiddle.map((item: NavbarItemTypes, idx: number) => {
           return <li key={`navItem_${idx}`}>{item.component}</li>
         })}
       </div>
-      <div>
+      <div className="invisible xl:visible flex flex-row">
         {NavbarItemsRight.map((item: NavbarItemTypes, idx: number) => {
-          return <li key={`navItem_${idx}`}>{item.component}</li>
+          return (
+            <li className="xl:px-[1rem]" key={`navItem_${idx}`}>
+              {item.component}
+            </li>
+          )
         })}
       </div>
     </ul>
