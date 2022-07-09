@@ -1,11 +1,12 @@
-import type { NextPage } from 'next'
+import type { NextPage } from "next";
+import CTA from "../components/CTA/cta";
 
 const Home: NextPage = () => {
-  return (
-    <div >
-		<p>Dummy</p>
-    </div>
-  )
-}
+	return (
+		<div>
+			<CTA />
+		</div>
+	);
+};
 
-export default Home
+export default Home;
