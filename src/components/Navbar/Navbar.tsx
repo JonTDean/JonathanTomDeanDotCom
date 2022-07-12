@@ -3,8 +3,8 @@ import NavbarList from "./NavbarList";
 
 const Navbar = () => {
 	return (
-		<nav className="sticky top-0 left-0 w-full p-2rem px-[8rem] mt-[2rem] bg-red-700 ">
-			{/* <NavbarList /> */}
+		<nav className="sticky top-0 left-0 flex flex-row justify-center align-center w-full z-10 bg-[#031296]">
+			<NavbarList />
 		</nav>
 	);
 };

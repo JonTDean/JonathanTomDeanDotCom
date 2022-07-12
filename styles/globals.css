@@ -1,5 +1,8 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;900&display=swap');
+/* -- LATO */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;400;900&display=swap");
+/* -- Rubik Mono One */
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
 
 /* Tailwind */
 @tailwind base;

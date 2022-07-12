@@ -3,8 +3,8 @@ import React from "react";
 
 const Grabber = () => {
 	return (
-		<div>
-			<div className=" h-[280px] w-[213px] my-10 py-[0.25rem] px-[0.25rem] relative border-4 rounded-t-full border-red-900">
+		<div className="flex flex-col items-center">
+			<div className="h-[280px] w-[213px] my-10 py-[0.25rem] px-[0.25rem] relative border-4 rounded-t-full border-red-900">
 				<Image
 					src={"/JTD.jpg"}
 					className="rounded-t-full"
@@ -13,8 +13,8 @@ const Grabber = () => {
 					height="285px"
 				/>
 			</div>
-			<div>
-				<div>
+			<div className="flex flex-col xl:flex-row max-w-[50%] xl:max-w-[75%] justify-center items-center xl:items-start xl:align-top">
+				<div className="flex flex-col my-5 xl:my-0 justify-start xl:justify-center items-center xl:items-start">
 					<h2 className="text-lg">Skills</h2>
 					<ul className="text-sm">
 						<li>Fullstack</li>
@@ -31,16 +31,19 @@ const Grabber = () => {
 						<li>3D Modeling</li>
 					</ul>
 				</div>
-				<div>
+				<div className="flex flex-col items-center xl:items-start my-5 xl:my-0 xl:w-[50%]">
 					<h2 className="text-lg">Biography</h2>
-					<p className="text-sm">
-						I{"'"}m a passionate developer! I{"'"}m constantly learning and
-						evolving in my craft. I love to share what I learn with others.
-					</p>
+					<div>
+						<p className="text-sm">
+							I{"'"}m a passionate developer! I{"'"}m constantly learning and
+							evolving in my craft. I love to share what I learn with others, check out my blog if you
+							{"'"}re interested!
+						</p>
+					</div>
 				</div>
-				<div>
+				<div className="my-5 xl:my-0 justify-center md:items-center">
 					<h2 className="text-lg">Statistics</h2>
-					<ul>
+					<ul className="text-sm">
 						<li>
 							<h3>YOE</h3>
 							<p>5</p>
@@ -57,7 +60,6 @@ const Grabber = () => {
 							<h3>Commits</h3>
 							<p>5</p>
 						</li>
-						<li></li>
 					</ul>
 				</div>
 			</div>

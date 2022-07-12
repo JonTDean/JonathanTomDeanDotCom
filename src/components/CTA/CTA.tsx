@@ -5,7 +5,7 @@ import Header from "./Header/Header";
 
 const CTA = () => {
 	return (
-		<div className="flex flex-col items-center m-[2.5rem] mx-[12.5rem]">
+		<div className="flex flex-col items-center justify-center">
 			<Header />
 			<Grabber />
 			<Contracts />
