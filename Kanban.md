@@ -20,7 +20,8 @@ Text Kanban.
 
 
 
-### Technology Incorporation
+### Tech Stack
+[MD Link](Tech_Stack.md)
 - [ ] Tailwind interactions are required. Adding plugins for further extensions and external libraries is necessary.
 - [ ] For the frontend portion of the application I need to incorporate a state mechanism such as Redux/MobX for the application. This will allow for the application to be more dynamic and responsive.
 - [ ] In terms of analytics I need to identify what is the best opensource and safe solution to use that does not infringe on my/user privacy.
