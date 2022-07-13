@@ -4,16 +4,50 @@
     "type": "split",
     "children": [
       {
-        "id": "44a0d23c4902f130",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Theme.md",
-            "mode": "source",
-            "source": false
+        "id": "f993ea1e3238e38c",
+        "type": "split",
+        "children": [
+          {
+            "id": "44a0d23c4902f130",
+            "type": "leaf",
+            "dimension": 67.3224043715847,
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "Kanban/To Do.md"
+              }
+            }
+          },
+          {
+            "id": "baa20b7ee9019fe6",
+            "type": "split",
+            "dimension": 32.677595628415304,
+            "children": [
+              {
+                "id": "35a490d50bfa2c73",
+                "type": "leaf",
+                "state": {
+                  "type": "kanban",
+                  "state": {
+                    "file": "Kanban/In Progress.md"
+                  }
+                }
+              },
+              {
+                "id": "c014674196ba2b57",
+                "type": "leaf",
+                "state": {
+                  "type": "kanban",
+                  "state": {
+                    "file": "Kanban/Finished.md"
+                  }
+                }
+              }
+            ],
+            "direction": "vertical"
           }
-        }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -70,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Theme.md",
+                "file": "Kanban/To Do.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,12 +124,12 @@
   },
   "active": "44a0d23c4902f130",
   "lastOpenFiles": [
-    "Kanban/Finished.md",
     "Kanban/In Progress.md",
+    "Kanban/Finished.md",
     "Kanban/To Do.md",
+    "Theme.md",
     "Readme.md",
     "Tech_Stack.md",
-    "Theme.md",
     "Kanban/Application.md",
     "Kanban/Untitled.md"
   ]

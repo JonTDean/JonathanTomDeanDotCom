@@ -6,6 +6,8 @@ kanban-plugin: basic
 
 ## Application Global
 
+- [ ] Establish a technology stack for the application.
+- [ ] Get to V1.0.0.
 
 
 ## Theme

@@ -6,15 +6,11 @@ kanban-plugin: basic
 
 ## Application Global
 
-- [ ] Establish a theme and color scheme for the application.
-- [ ] Establish a technology stack for the application.
-- [ ] Get to V1.0.0.
 
 
 ## Theme
 
 - [ ] I need to fill in the color profile and font profile.
-- [x] I need to fill in the radius for the components.
 
 
 ## Tech Stack
@@ -71,6 +67,6 @@ kanban-plugin: basic
 
 %% kanban:settings
 ```
-{"kanban-plugin":"basic"}
+{"kanban-plugin":"basic","show-checkboxes":true}
 ```
 %%
