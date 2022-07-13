@@ -11,6 +11,7 @@ kanban-plugin: basic
 ## Theme
 
 - [ ] I need to fill in the color profile and font profile.
+- [ ] Find ALT Color profiles
 
 
 ## Tech Stack
@@ -22,6 +23,7 @@ kanban-plugin: basic
 
 ## Frontend
 
+- [ ] > Group
 
 
 ## Navbar
@@ -33,6 +35,7 @@ kanban-plugin: basic
 
 ## Landing Page
 
+- [ ] > Sub-Group
 
 
 ## CTA
@@ -57,6 +60,16 @@ kanban-plugin: basic
 
 - [ ] Add real world contracts you've done with descriptions, dates, and an example of what you did as well as what the application performed.
 - [ ] Add Icons to the Contracts if applicable else add a Contract Icon as the default.
+
+
+## Projects Page
+
+- [ ] >Sub-Group
+
+
+## Contact Page
+
+- [ ] >Sub-Group
 
 
 ## Backend

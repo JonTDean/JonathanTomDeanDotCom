@@ -1,10 +1,16 @@
 # Theme for the Main Site
 
 ## Colors
+
+<div>
+	<p style="background-color:#1A1A1A ;color: #FFEAC5;">Background Color: #FFEAC5</p>
+</div>
+
 <div>
 	<p style="color: #DE4B51; background-color: #1A1A1A;">Primary Main Color: #DE4B51</p>
 	<p style="color: #4718FF; background-color: #E0E0E0;">Secondary Main Color: #4718FF</p>
 </div>
+
 <div>
 	<p style="">Primary Alt Color:</p>
 	<p style="">Secondary Alt Color:</p>
@@ -16,10 +22,11 @@
 </div>
 
 ## Font
+
 <div>
+	<p>Primary Font Serif: Karla</p>
+	<p>Primary Font Sans-Serif: Rubik</p>
 </div>
-Primary Font Serif: Karla
-Primary Font Sans-Serif: Rubik
 
 <div>
 	<p>Alt Font Serif: Oswald</p>
