@@ -4,5 +4,5 @@ A repository with the documentation, thought process, and timelapse of my sites 
 
 
 [Technology Stack](./Technologies.md)
-[Kanban Board](./Kanban.md)
+[Kanban Board](To%20Do.md)
 [Theme Stack](./Theme.md)

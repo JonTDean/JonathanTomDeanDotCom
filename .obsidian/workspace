@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "d21bb30d61ec810c",
+        "id": "44a0d23c4902f130",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Theme.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -23,14 +27,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d6690ed3291b8707",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
             "id": "3c6a3f99b07bb0d3",
             "type": "leaf",
             "state": {
@@ -44,12 +40,21 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "2a5263cc6c1752b7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 248
+    "width": 257.5
   },
   "right": {
     "id": "51f7f49f0b4a44f3",
@@ -65,6 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Theme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,10 +88,15 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d21bb30d61ec810c",
+  "active": "44a0d23c4902f130",
   "lastOpenFiles": [
-    "ToDo.md",
+    "Kanban/Finished.md",
+    "Kanban/In Progress.md",
+    "Kanban/To Do.md",
+    "Readme.md",
+    "Tech_Stack.md",
     "Theme.md",
-    "Technologies.md"
+    "Kanban/Application.md",
+    "Kanban/Untitled.md"
   ]
 }
