@@ -83,28 +83,28 @@ const ContactContainer = () => {
 	};
 
 	return (
-		<div className="flex flex-col items-center p-6 space-y-6">
+		<div className="flex flex-col items-center py-3 px-6 space-y-6">
 			<div className="flex flex-col items-center">
 				<h1 className="font-RMO text-2xl">Contact Me</h1>
 				<p className="font-Karla">
 					Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
 				</p>
 			</div>
-			<div className="bg-[#FFEAC5] rounded-[20px]">
+			<div className="bg-[#FFEAC5] p-6 rounded-[20px]">
 				<form className="flex flex-col p-6 space-y-6 ">
 					{/* Name and Email Area */}
 					<div className="flex flex-row items-center space-x-6">
-						<div className="flex flex-col ">
+						<div className="flex flex-col space-y-1">
 							<label>Name:</label>
 							<input
-								className="rounded-[6px] focus:ring-0 focus:outline-1 focus:outline-offset-0 outline-[#4718FF]"
+								className="rounded-[6px] p-3"
 								type="text"
 								name="name"
 								value={formValues.name}
 								onChange={handleFormChange}
 							/>
 						</div>
-						<div className="flex flex-col ">
+						<div className="flex flex-col space-y-1">
 							<label>Email:</label>
 							<input
 								className="rounded-[6px] p-3"
@@ -116,7 +116,7 @@ const ContactContainer = () => {
 						</div>
 					</div>
 					{/* Message Area */}
-					<div className="flex flex-col ">
+					<div className="flex flex-col space-y-1">
 						<label>Message:</label>
 						<textarea
 							className="rounded-[6px] p-3"
@@ -127,7 +127,7 @@ const ContactContainer = () => {
 					</div>
 					{/* Submit Button */}
 					<input
-						className="bg-blue-600"
+						className="bg-blue-600 hover:bg-blue-300 hover:cursor-pointer p-3 rounded-[6px] text-[#E0E0E0]"
 						type="submit"
 						onClick={handleFormSubmit}
 					/>
