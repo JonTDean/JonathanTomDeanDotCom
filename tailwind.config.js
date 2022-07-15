@@ -7,6 +7,8 @@ module.exports = {
 			fontFamily: {
 				Lato: ["Lato", "sans-serif"],
 				RMO: ["Rubik Mono One", "sans-serif"],
+				Karla: ["Karla", "sans-serif"],
+				Oswald: ["Oswald", "sans-serif"],
 			},
 		},
 	},

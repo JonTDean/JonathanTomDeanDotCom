@@ -2,7 +2,7 @@ import ProjectCardProps from "../../../lib/types/ProjectCard.props";
 
 const temp1: ProjectCardProps = {
 	title: "Project 1",
-	description: "This is a project description",
+	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 	image: "https://source.unsplash.com/random/200x200",
 	info: {
 		site: "https://www.google.com",
@@ -12,7 +12,7 @@ const temp1: ProjectCardProps = {
 };
 
 const temp2: ProjectCardProps = {
-	title: "Project 1",
+	title: "Project 2",
 	description: "This is a project description",
 	image: "https://source.unsplash.com/random/200x200",
 	info: {
@@ -23,7 +23,7 @@ const temp2: ProjectCardProps = {
 };
 
 const temp3: ProjectCardProps = {
-	title: "Project 1",
+	title: "Project 3",
 	description: "This is a project description",
 	image: "https://source.unsplash.com/random/200x200",
 	info: {
@@ -34,7 +34,7 @@ const temp3: ProjectCardProps = {
 };
 
 const temp4: ProjectCardProps = {
-	title: "Project 1",
+	title: "Project 4",
 	description: "This is a project description",
 	image: "https://source.unsplash.com/random/200x200",
 	info: {

@@ -5,11 +5,7 @@ type WrapperProps = {
 };
 
 const Wrapper = ({ children }: WrapperProps) => {
-	return (
-		<div className="bg-[#FFEAC5] h-full w-full">
-			{children}
-		</div>
-	);
+	return <div className="h-full w-full p-[3rem]">{children}</div>;
 };
 
 export default Wrapper;
