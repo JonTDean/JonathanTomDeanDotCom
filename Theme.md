@@ -24,13 +24,13 @@
 ## Font
 
 <div>
-	<p>Primary Font Serif: Karla</p>
-	<p>Primary Font Sans-Serif: Rubik</p>
+	<p>Primary Font Header: Karla</p>
+	<p>Primary Font Non-Header: Rubik</p>
 </div>
 
 <div>
-	<p>Alt Font Serif: Oswald</p>
-	<p>Alt Font Sans-Serif: Rubik Mono One</p>
+	<p>Alt Font Header: Oswald</p>
+	<p>Alt Font Non-Header: Rubik Mono One</p>
 </div>
 
 <div>

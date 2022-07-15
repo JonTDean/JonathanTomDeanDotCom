@@ -10,7 +10,7 @@
           {
             "id": "44a0d23c4902f130",
             "type": "leaf",
-            "dimension": 67.21311475409836,
+            "dimension": 53.57142857142857,
             "state": {
               "type": "kanban",
               "state": {
@@ -21,7 +21,7 @@
           {
             "id": "baa20b7ee9019fe6",
             "type": "split",
-            "dimension": 32.78688524590164,
+            "dimension": 46.42857142857143,
             "children": [
               {
                 "id": "35a490d50bfa2c73",
@@ -126,10 +126,10 @@
   "lastOpenFiles": [
     "Kanban/In Progress.md",
     "Kanban/To Do.md",
-    "Kanban/Finished.md",
-    "Theme.md",
     "Readme.md",
     "Tech_Stack.md",
+    "Theme.md",
+    "Kanban/Finished.md",
     "Kanban/Application.md",
     "Kanban/Untitled.md"
   ]

@@ -12,6 +12,7 @@ kanban-plugin: basic
 
 - [ ] I need to fill in the color profile and font profile.
 - [ ] Find ALT Color profiles
+- [ ] Create a theme engine with tailwind that follows the theme schema.
 
 
 ## Tech Stack
@@ -67,13 +68,31 @@ kanban-plugin: basic
 - [ ] >Sub-Group
 
 
+## Project Card
+
+- [ ] For each of the projects I should add a tag system in order for it to be searched.
+- [ ] I should add the technologies used in addition to the total time spent developing the apps.
+- [ ] For the text add an arrow, that when hovered over allows you to scroll through the text.
+- [ ] Add a Logo to the title area
+
+
 ## Contact Page
 
 - [ ] >Sub-Group
+- [x] Decide whether or not the form should be a controlled/uncontrolled component
+- [x] Create a reducer for the form
+- [ ] Organize the reducer logic as the current iteration looks like spaghetti.
+- [ ] Add error logic to the form reducer.
+- [ ] There is an issue with styling the input elements as the outline does not disappear in chrome. Need to figure out what to do with the styling.
 
 
 ## Backend
 
+- [ ] Setup a server that has the basic information needed for a project DB
+- [ ] The Following backend servers will be:<br><br>HEADLESS:<br>---------------<br>CMS - Strapi<br>Analytics - Posthog<br>Data Engine - Directus<br>Central - AppWrite<br><br>In-House:<br>-------------<br>Server - NestJS
+- [ ] Integrated CMS Server
+- [ ] Integrated Analytics Server
+- [ ] Integrated AppWrite
 
 
 
