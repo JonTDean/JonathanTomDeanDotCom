@@ -25,7 +25,7 @@ const SocialMedia = () => {
 					<GithubSVG />
 				</a>
 			</li>
-			<li>
+			<li className="flex items-center">
 				<a
 					href={"https://medium.com/@jonathantomdean"}
 					target="_blank"
