@@ -1,7 +1,7 @@
 import React from "react";
 import Contracts from "./Contracts/Contracts";
 import Grabber from "./Grabber/Grabber";
-import Header from "./CTA/Header/Header";
+import Header from "./Header/Header";
 
 const CTA = () => {
 	return (
