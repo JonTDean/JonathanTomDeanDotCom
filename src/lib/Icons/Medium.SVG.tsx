@@ -4,8 +4,9 @@ import { SVGProps } from "react";
 const MediumSVG = (props: SVGProps<SVGSVGElement>) => {
 	return (
 		<svg
+			className="justify-center"
 			width="1em"
-			height="1em"
+			height="0.6em"
 			fill="none"
 			xmlns="http://www.w3.org/2000/svg"
 			{...props}

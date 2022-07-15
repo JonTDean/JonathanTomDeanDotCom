@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import NavbarItemEnum from "../../../../lib/enums/NavbarItem.enum";
+import NavbarItemEnum from "../../enums/NavbarItem.enum";
 
 const MainItems = () => {
 	return (
