@@ -1,8 +1,8 @@
 import React from "react";
-import LinkedInSVG from "../../Icons/LinkedIn.SVG";
-import GithubSVG from "../../Icons/Github.SVG";
-import MediumSVG from "../../Icons/Medium.SVG";
-import TwitterSVG from "../../Icons/Twitter.SVG";
+import LinkedInSVG from "../../../../lib/Icons/LinkedIn.SVG";
+import GithubSVG from "../../../../lib/Icons/Github.SVG";
+import MediumSVG from "../../../../lib/Icons/Medium.SVG";
+import TwitterSVG from "../../../../lib/Icons/Twitter.SVG";
 
 const SocialMedia = () => {
 	return (

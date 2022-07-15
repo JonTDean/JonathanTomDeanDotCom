@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import CTA from "../components/CTA/cta";
+import CTA from "../components/Landing/CTA";
 
 const Home: NextPage = () => {
 	return (
