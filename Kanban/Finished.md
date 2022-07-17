@@ -46,6 +46,12 @@ kanban-plugin: basic
 
 
 
+## Contact Page
+
+- [x] Decide whether or not the form should be a controlled/uncontrolled component
+- [x] Create a reducer for the form
+
+
 ## Backend
 
 

@@ -10,7 +10,7 @@
           {
             "id": "44a0d23c4902f130",
             "type": "leaf",
-            "dimension": 53.57142857142857,
+            "dimension": 57.049180327868854,
             "state": {
               "type": "kanban",
               "state": {
@@ -21,7 +21,7 @@
           {
             "id": "baa20b7ee9019fe6",
             "type": "split",
-            "dimension": 46.42857142857143,
+            "dimension": 42.950819672131146,
             "children": [
               {
                 "id": "35a490d50bfa2c73",
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 138
+    "width": 135
   },
   "right": {
     "id": "51f7f49f0b4a44f3",
@@ -124,12 +124,12 @@
   },
   "active": "44a0d23c4902f130",
   "lastOpenFiles": [
-    "Kanban/In Progress.md",
+    "Kanban/Finished.md",
     "Kanban/To Do.md",
+    "Kanban/In Progress.md",
     "Readme.md",
     "Tech_Stack.md",
     "Theme.md",
-    "Kanban/Finished.md",
     "Kanban/Application.md",
     "Kanban/Untitled.md"
   ]

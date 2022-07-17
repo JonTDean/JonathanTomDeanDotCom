@@ -48,6 +48,7 @@ kanban-plugin: basic
 ## Header
 
 - [ ] Reduce the size of the Header CTA Text as RMOs default size is insane.
+- [ ] Need to reduce the spacing on the header text as it's too large
 
 
 ## Grabber
@@ -79,11 +80,26 @@ kanban-plugin: basic
 ## Contact Page
 
 - [ ] >Sub-Group
-- [x] Decide whether or not the form should be a controlled/uncontrolled component
-- [x] Create a reducer for the form
+
+
+## Contact Form
+
 - [ ] Organize the reducer logic as the current iteration looks like spaghetti.
 - [ ] Add error logic to the form reducer.
 - [ ] There is an issue with styling the input elements as the outline does not disappear in chrome. Need to figure out what to do with the styling.
+
+
+## Blog Page
+
+- [ ] >Sub-Group
+- [ ] Create search functionality, we can use bitap + tags for the logic.
+- [ ] In addition to the tags we want the server rendered pages to be seo friendly especially with the given tags
+- [ ] Add a subscribe component that sends a newsletter to my subscribers
+
+
+## Blog Post
+
+- [ ] Need to finalize styling
 
 
 ## Backend
@@ -93,6 +109,22 @@ kanban-plugin: basic
 - [ ] Integrated CMS Server
 - [ ] Integrated Analytics Server
 - [ ] Integrated AppWrite
+
+
+## CMS Server
+
+
+
+## Analytics Server
+
+
+
+## Data Engine Server
+
+
+
+## CRM Server
+
 
 
 
