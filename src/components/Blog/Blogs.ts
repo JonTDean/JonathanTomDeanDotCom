@@ -6,10 +6,10 @@ export type BlogCardAnalyticTypes = {
 
 export type BlogCardTypes = {
 	title: string;
-	analytics: BlogCardAnalyticTypes;
 	description: string;
 	image: string;
 	link: string;
+	analytics: BlogCardAnalyticTypes;
 };
 
 const blog1 = {

@@ -8,3 +8,4 @@ type ProjectCardProps = {
 };
 
 export default ProjectCardProps;
+

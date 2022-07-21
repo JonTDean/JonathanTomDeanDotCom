@@ -1,4 +1,4 @@
-import ProjectCardProps from "../../../lib/types/ProjectCard.props";
+import ProjectCardProps from "../../lib/types/ProjectCard.props";
 
 const temp1: ProjectCardProps = {
 	title: "Project 1",
@@ -44,6 +44,6 @@ const temp4: ProjectCardProps = {
 	},
 };
 
-const projects: ProjectCardProps[] = [temp1, temp2, temp3, temp4];
+const projectsList: ProjectCardProps[] = [temp1, temp2, temp3, temp4];
 
-export default projects;
+export default projectsList;
