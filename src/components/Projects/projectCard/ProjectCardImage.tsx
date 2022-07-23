@@ -7,10 +7,14 @@ type ProjectCardImagePropsType = {
 	title: string;
 };
 
+const projectCardImageLoader = ({ src }: { src: string }) =>
+	src == undefined ? "https://source.unsplash.com/random/200x200" : src;
+
 const ProjectCardImage = ({ image, title }: ProjectCardImagePropsType) => {
 	return (
 		<div className="flex flex-col items-center px-3 space-y-6">
 			<Image
+				loader={projectCardImageLoader}
 				src={image}
 				className="rounded-[20px]"
 				width={"175"}

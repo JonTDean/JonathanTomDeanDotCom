@@ -4,7 +4,6 @@
 import { useMemo } from "react";
 import { ApolloClient, HttpLink, InMemoryCache, from } from "@apollo/client";
 import { onError } from "@apollo/client/link/error";
-import { concatPagination } from "@apollo/client/utilities";
 import merge from "deepmerge";
 import isEqual from "lodash/isEqual";
 
@@ -24,7 +23,7 @@ const errorLink = onError(({ graphQLErrors, networkError }) => {
 });
 
 const httpLink = new HttpLink({
-	uri: "https://nextjs-graphql-with-prisma-simple.vercel.app/api", // Server URL (must be absolute)
+	uri: "http://localhost:8000/graphql", // Server URL (must be absolute)
 	credentials: "same-origin", // Additional fetch() options like `credentials` or `headers`
 });
 
@@ -34,10 +33,14 @@ function createApolloClient() {
 		link: from([errorLink, httpLink]),
 		cache: new InMemoryCache({
 			typePolicies: {
-				Query: {
-					fields: {
-						allPosts: concatPagination(),
-					},
+				Project: {
+					keyFields: [
+						"id",
+						"title",
+						"description",
+						"projectInfo",
+						["id", "site", "blog"],
+					],
 				},
 			},
 		}),

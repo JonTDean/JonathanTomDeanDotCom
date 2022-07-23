@@ -7,14 +7,14 @@ import ProjectCardLinks from "./ProjectCardLinks";
 type ProjectCardMetaPropsType = {
 	title: string;
 	description: string;
-	info: ProjectInfoType;
+	projectInfo: ProjectInfoType;
 };
 
 // Links to information related to the project.
 const ProjectCardMetaContainer = ({
 	title,
 	description,
-	info,
+	projectInfo: { site, repo, blog },
 }: ProjectCardMetaPropsType) => {
 	return (
 		<div>
@@ -26,7 +26,7 @@ const ProjectCardMetaContainer = ({
 				<ProjectCardDescription description={description} />
 
 				{/*  Links to information related to the project. */}
-				<ProjectCardLinks site={info.site} repo={info.repo} blog={info.blog} />
+				<ProjectCardLinks site={site} repo={repo} blog={blog} />
 			</div>
 		</div>
 	);

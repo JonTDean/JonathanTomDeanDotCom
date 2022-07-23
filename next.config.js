@@ -11,7 +11,7 @@ const nextConfig = {
 		return config;
 	},
 	images: {
-		domains: ["source.unsplash.com"],
+		domains: ["source.unsplash.com", " picsum.photos"],
 	},
 };
 

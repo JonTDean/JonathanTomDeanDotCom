@@ -1,11 +1,16 @@
 // NextJS
 import React from "react";
+import ProjectCardProps from "../../lib/types/ProjectCard.props";
 // Projects
 import ProjectCard from "./ProjectCard";
-import projectsList from "./Projects";
+// import projectsList from "./Projects";
+
+interface ProjectCardListProps {
+	projectsList: ProjectCardProps[];
+}
 
 // ProjectCardList is a component that displays a list of ProjectCards.
-const ProjectCardList = () => {
+const ProjectCardList = ({ projectsList }: ProjectCardListProps) => {
 	// Enumerator composition pattern
 	// What I plan to do is have this dynamically
 	// hydrate from a server that contains a list
