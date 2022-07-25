@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import ProjectInfoType from "../../../../lib/types/ProjectInfo.type";
+import ProjectInfoType from "../../../../lib/Utils/types/ProjectInfo.type";
 
 const ProjectCardLinks = ({ site, repo, blog }: ProjectInfoType) => {
 	return (

@@ -1,7 +1,7 @@
 // NextJS
 import React from "react";
 // Projects
-import ProjectType from "../../lib/types/ProjectType";
+import ProjectType from "../../lib/Utils/types/ProjectType";
 import ProjectCardMetaContainer from "./projectCard/ProjectCardMeta/ProjectCardMetaContainer";
 import ProjectCardImage from "./projectCard/ProjectCardImage";
 

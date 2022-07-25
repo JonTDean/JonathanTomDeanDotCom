@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import NavbarItemEnum from "../../../../lib/enums/NavbarItem.enum";
+import NavbarItemEnum from "../../../../lib/Utils/enums/NavbarItem.enum";
 
 const Logo = () => {
 	return (

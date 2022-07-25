@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectInfoType from "../../../../lib/types/ProjectInfo.type";
+import ProjectInfoType from "../../../../lib/Utils/types/ProjectInfo.type";
 import ProjectCardDescription from "./ProjectCardDescription";
 import ProjectCardHeader from "./ProjectCardHeader";
 import ProjectCardLinks from "./ProjectCardLinks";

@@ -1,12 +1,12 @@
 // NextJS
 import React from "react";
-import ProjectCardProps from "../../lib/types/ProjectCard.props";
+import ProjectType from "../../lib/Utils/types/ProjectType";
 // Projects
 import ProjectCard from "./ProjectCard";
 // import projectsList from "./Projects";
 
 interface ProjectCardListProps {
-	projectsList: ProjectCardProps[];
+	projectsList: ProjectType[];
 }
 
 // ProjectCardList is a component that displays a list of ProjectCards.

@@ -1,11 +1,11 @@
 import React from "react";
 
-type WrapperProps = {
+type SpacingWrapperProps = {
 	children: JSX.Element;
 };
 
-const Wrapper = ({ children }: WrapperProps) => {
+const SpacingWrapper = ({ children }: SpacingWrapperProps) => {
 	return <div className="h-full w-full p-[3rem]">{children}</div>;
 };
 
-export default Wrapper;
+export default SpacingWrapper;

@@ -1,6 +1,6 @@
 import React from "react";
 import DevToSVG from "../../lib/Icons/DevTo.svg";
-import MediumSVG from "../../lib/Icons/Medium.SVG";
+import MediumSVG from "../../lib/Theme/Icons/Medium.SVG";
 import BlogCardList from "./BlogCardList";
 
 const BlogContainer = () => {

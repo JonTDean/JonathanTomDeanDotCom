@@ -1,4 +1,4 @@
-import ProjectType from "../../lib/types/ProjectType";
+import ProjectType from "../../lib/Utils/types/ProjectType";
 
 
 const temp1: ProjectType = {

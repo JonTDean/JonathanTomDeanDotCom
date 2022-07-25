@@ -1,14 +1,17 @@
-import { findIndex } from "lodash";
+// NextJS
 import React, { useEffect } from "react";
+// Components
 import ProjectCardList from "../../components/Projects/ProjectCardList";
 import ProjectHeader from "../../components/Projects/ProjectHeader";
+// GraphQL
 import {
 	addApolloState,
 	initializeApollo,
 } from "../../lib/GraphQL/apolloClient";
 import GET_ALL_PROJECTS_QUERY from "../../lib/GraphQL/queries/GET_ALL_PROJECTS.query";
-// import ProjectInfoType from "../../lib/types/ProjectInfo.type";
-import ProjectType from "../../lib/types/ProjectType";
+// Utils
+import { findIndex } from "lodash";
+import ProjectType from "../../lib/Utils/types/ProjectType";
 
 interface IProjectsProps {
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any

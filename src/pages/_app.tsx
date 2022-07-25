@@ -4,10 +4,12 @@ import type { AppProps } from "next/app";
 import "/styles/globals.css";
 import Navbar from "../components/General/Navbar/Navbar";
 import Footer from "../components/General/Footer/Footer";
-import Wrapper from "../components/General/Wrapper";
+import Wrapper from "../lib/Theme/Container/Wrapper";
 // Backend API
 import { ApolloProvider } from "@apollo/client";
 import { useApollo } from "../lib/GraphQL/apolloClient";
+import CenterWrapper from "../lib/Theme/Container/CenterWrapper";
+import AppWrapper from "../lib/Theme/Container/Wrappers/AppWrapper";
 
 // const client = new ApolloClient({
 // 	uri: "http://localhost:8000/graphql",
@@ -22,13 +24,13 @@ function MyApp({ Component, pageProps }: AppProps) {
 		<>
 			{/* Providers */}
 			<ApolloProvider client={apolloClient}>
-				{/* Top Layer */}
-				{/* Site Section */}
 				<>
+					{/* Top Layer */}
 					<Navbar />
-					<Wrapper>
+					{/* Site Section */}
+					<AppWrapper>
 						<Component {...pageProps} />
-					</Wrapper>
+					</AppWrapper>
 					<Footer />
 				</>
 			</ApolloProvider>
